@@ -121,9 +121,9 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="HTTPIO"
-                description="HTTPIO Plugin"
-                id="gui.extension.HTTPIO.name"
+                defaultMessage="LazyAudio"
+                description="Lazy Audio Plugin"
+                id="gui.extension.lazyaudio.name"
             />
         ),
         collaborator: 'Clipteam',

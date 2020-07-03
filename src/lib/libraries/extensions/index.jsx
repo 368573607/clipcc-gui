@@ -52,6 +52,9 @@ import libraInsetImage from './libra/Libra-small.svg';
 import HTTPIOImage from './HTTPIO/CCUnknownExtension.jpg';
 import HTTPIOInsetImage from './HTTPIO/CCUnknownExtension.svg';
 
+import LazyAudioImage from './lazyaudio/CCUnknownExtension.jpg';
+import LazyAudioInsetImage from './lazyaudio/CCUnknownExtension.svg';
+
 export default [
     {
         name: (
@@ -110,6 +113,28 @@ export default [
                 defaultMessage="Feel the charm of the Internet!"
                 description="HTTPIO Plugin"
                 id="gui.extension.HTTPIO.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="HTTPIO"
+                description="HTTPIO Plugin"
+                id="gui.extension.HTTPIO.name"
+            />
+        ),
+        collaborator: 'Clipteam',
+        extensionId: 'lazyaudio',
+        iconURL: LazyAudioImage,
+        insetIconURL: LazyAudioInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="Play music from elsewhere"
+                description="LazyAudio Plugin"
+                id="gui.extension.lazyaudio.description"
             />
         ),
         featured: true,
